@@ -6,10 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Target 3</title>
   </head>
-  <body></body>
-  <script>
-    import data from './dados.json'
-
-    console.log(data.id)
-  </script>
+  <body>
+    <h1>Target 3 - Testes</h1>
+    <p>O menor valor de faturamento ocorrido em um dia do mês;</p>
+    <span id="menorMesFaturado"></span>
+    <p>O maior valor de faturamento ocorrido em um dia do mês;</p>
+    <span id="maiorMesFaturado"></span>
+    <p>
+      Número de dias no mês em que o valor de faturamento diário foi superior à
+      média mensal.
+    </p>
+    <span id="mediaMensal"></span>
+  </body>
+  <script src="./dadosDeVendas.js"></script>
+  <script src="./script.js"></script>
 </html>
